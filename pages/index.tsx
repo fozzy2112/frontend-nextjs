@@ -35,7 +35,7 @@ export default function Home() {
   }
 
   return (
-    <div className='space-y-5'>
+    <div className='space-y-5 py-10'>
       <Head>
         <title>Frontend Test search and list Repository</title>
       </Head>
