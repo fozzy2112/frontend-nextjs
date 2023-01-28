@@ -11,11 +11,12 @@ export default function UserItem({user}:Props) {
 				<Image alt="profile" width={40} height={40} src={user?.avatar_url} className="rounded-full" />
 				<span>{user.login}</span>
 			</div>
-			<span className="hover:bg-black hover:text-white p-3">
-				<Link href={`/detail/${user.login}`}>
+			<Link className="hover:bg-black hover:text-white p-3 flex items-center" href={`/detail/${user.login}`}>
+				<p className="text-[16px]">Details</p>
+				<span>
 					<ChevronRightIcon className="w-4 h-4" />
-				</Link>
-			</span>
+				</span>
+			</Link>
 		</div>
 	)
 }

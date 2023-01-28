@@ -5,7 +5,7 @@ export default function Footer() {
 		<div
 			className="text-center p-10 border-t"
 		>
-			Belajar dengan Nextjs dengan <span className="font-bold">Baris Kode</span>
+			Frontend Developer Test by <span className="font-bold">Difio Rahmandha</span>
 		</div>
 	)
 }
